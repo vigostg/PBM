@@ -1,4 +1,4 @@
-name: daycare_app
+name: DAYCARE_APP
 description: "Aplikasi Pengasuh."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -35,6 +35,8 @@ dependencies:
   firebase_auth: ^4.7.0
   cloud_firestore: ^4.9.0
   provider: ^6.0.5
+  sqflite: ^2.2.8+4
+  path: ^1.8.3
   font_awesome_flutter: ^10.1.0
 
 
@@ -69,7 +71,7 @@ flutter:
      - images/bg_login.jpg
      - images/bg_register.jpg
      - images/bg_child_input.jpg
-     - images/bg_child_activities.jpg
+     - images/bg_activity_child.jpg
      - images/bg_activity_input.jpg
      - images/child_care.jpg
      

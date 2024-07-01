@@ -69,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(height: 20.0),
                     TextFormField(
                       decoration: InputDecoration(
-                        hintText: 'Password',
+                        hintText: 'Kata Sandi',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),

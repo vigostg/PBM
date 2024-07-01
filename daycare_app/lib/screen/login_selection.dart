@@ -21,8 +21,8 @@ class LoginSelectionPage extends StatelessWidget {
               children: <Widget>[
                 Image.asset(
                 ("images/child_care.jpg"),
-                  width: 100,
-                  height: 100,
+                  width: 200,
+                  height: 200,
                 ),
                 const SizedBox(height: 20.0),
                 const Text(
@@ -36,7 +36,7 @@ class LoginSelectionPage extends StatelessWidget {
                 const SizedBox(height: 40.0),
                 _buildElevatedButton(context, 'Caregiver'),
                 const SizedBox(height: 20.0),
-                _buildElevatedButton(context, 'Parents'),
+                _buildElevatedButton(context, 'Parentss'),
               ],
             ),
           ),
